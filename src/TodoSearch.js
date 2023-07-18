@@ -1,9 +1,8 @@
 import React from 'react';
-import { useState } from 'react';
 import './TodoSearch'
 
-function TodoSearch(){
-const [searchValue, setSearchValue] = useState('');
+function TodoSearch({ searchValue, setSearchValue }){
+
 
     return (
       <input placeholder= 'Cortar cebollas'
